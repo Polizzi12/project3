@@ -1,0 +1,23 @@
+body {
+  background-color: hsla(203, 74%, 54%, 1) !important;
+}
+.search {
+  margin-block: 40px;
+  margin-inline: 700px;
+ 
+}
+.bvb {
+  border-radius: 50px !important;
+  background: rgb(2, 0, 36) !important;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(210, 215, 161, 1) 0%,
+    rgba(0, 224, 255, 1) 100%
+  ) !important;
+  color: #339ee1 !important;
+  font-weight: 500 !important;
+}
+.bvb::placeholder {
+  color: #339ee1 !important;
+}
