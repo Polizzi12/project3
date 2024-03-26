@@ -1,10 +1,33 @@
 body {
-  background-color: hsla(203, 74%, 54%, 1) !important;
+  background-color: #3eabe4 !important;
 }
 .search {
-  margin-block: 40px;
-  margin-inline: 700px;
- 
+  font-size: 80px;
+  text-align: center;
+  margin: 40px;
+}
+.icob {
+  border-radius: 50% !important;
+  background-color: #15dff6 !important;
+  color: white !important;
+  cursor: pointer;
+  padding-inline: 12px;
+  padding-top: 5px;
+}
+.icob:hover {
+  border: 1px solid #319cea;
+}
+.icon {
+  margin-left: 5px !important;
+  border-radius: 50% !important;
+  background-color: #15dff6 !important;
+  color: white !important;
+  cursor: pointer;
+  padding-inline: 25px;
+  padding-bottom: 18px;
+}
+.icon:hover {
+  border: 1px solid #319cea;
 }
 .bvb {
   border-radius: 50px !important;
@@ -21,3 +44,104 @@ body {
 .bvb::placeholder {
   color: #339ee1 !important;
 }
+.im {
+  padding-left: 780px;
+}
+.im h1 {
+  position: relative;
+  right: 350px;
+  text-align: center;
+  font-size: 35px;
+  color: #73dbcc;
+}
+.mela {
+  margin-block: 50px;
+  margin-inline: 550px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.world {
+  width: 800px;
+  height: 500px;
+  border-radius: 30px;
+  position: relative;
+  left: 575px;
+}
+.cont {
+  width: 100%;
+  border-top: 0.5px solid white;
+  padding-block: 55px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.iff:hover {
+  color: #73dbcc;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.punto a {
+  text-decoration: none;
+  color: #000;
+}
+
+.ftr {
+  color: white;
+  padding-top: 200px;
+  padding-inline: 200px;
+}
+.ftr li a {
+  text-decoration: none;
+  color: white;
+}
+.ftr li a:hover {
+  cursor: pointer;
+  color: #73dbcc;
+  text-decoration: underline;
+}
+.container {
+  background-color: #319cea;
+  color: white;
+  border-radius: 20px;
+  margin-block: 30px;
+  padding-inline: 500px;
+}
+.primo {
+  display: flex;
+  justify-content: space-evenly;
+  padding-block: 20px;
+}
+.temp {
+  font-size: 130px;
+  position: relative;
+  top: 70px;
+}
+.perc1 {
+  text-align: center;
+}
+.location {
+  font-size: 130px;
+  position: relative;
+  top: 70px;
+}
+.last {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 250px;
+}
+.dd{
+  display: flex;
+  justify-content: space-between;
+  gap:10px;
+}
+#pp{
+  font-size: 70px;
+}
+.tony {
+  font-size: 100px;
+  position: relative;
+  bottom:35px;
+}
+
